@@ -50,11 +50,11 @@ def run(my_songs)
   puts "Please enter a command:"
   command = gets.chomp
   if command == "list"
-    list(songs)
-    run(songs)
+    list(my_songs)
+    run(my_songs)
   elsif command == "play"
-    play(songs)
-    run(songs)
+    play(my_songs)
+    run(my_songs)
   elsif command == "help"
     help
     run(songs)
