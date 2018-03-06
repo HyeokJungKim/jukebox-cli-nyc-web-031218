@@ -57,7 +57,7 @@ def run(my_songs)
     run(my_songs)
   elsif command == "help"
     help
-    run(songs)
+    run(my_songs)
   elsif command == "exit"
     exit_jukebox
   else
